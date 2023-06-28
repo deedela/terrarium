@@ -8,8 +8,8 @@ h1 {
 #left-container {
     background-color: #eee;
     width: 15%;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     position: absolute;
     height: 100%;
     padding: 10px;
@@ -18,10 +18,87 @@ h1 {
 #right-container {
     background-color: #eee;
     width: 15%;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
     position: absolute;
     height: 100%;
     padding: 10px;
 }
 
+.plant-holder {
+    position: relative;
+    height: 13%;
+    left: -10%;
+}
+
+.plant {
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}   
+
+.jar-walls {
+    height: 80%;
+	width: 60%;
+	background: #d1e1df;
+	border-radius: 5rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 37.9%;
+	height: 5%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 80.5%;
+	left: 30.9%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 48%;
+	height: 1%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 0%;
+	left: 26%;
+	opacity: 0.7;
+}
+
+.dirt {
+	width: 54%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 7rem 7rem;
+	bottom: 3%;
+	left: 23%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.jar-glossy-short {
+	height: 6%;
+    width: 2%;
+    border-radius: 5px;
+    background-color: #EEFEFE;
+    position: absolute;
+    top: 320px;
+    left: 30px;        
+}
+
+.jar-glossy-long {
+	height: 12%;
+    width: 2%;
+    border-radius: 5px;
+    background-color: #EEFEFE;
+    position: absolute;
+    top: 368px;
+    left: 30px;        
+}
